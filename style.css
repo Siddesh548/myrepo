@@ -1,0 +1,52 @@
+/* style.css */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    /* Background color added here */
+    background-color: #f0f0f0; /* Light gray/off-white background */
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* ... (rest of the CSS remains the same) */
+
+/* You can add more specific background colors to other elements */
+main {
+    padding: 40px;
+    max-width: 960px;
+    margin: 0 auto;
+    /* Example: A slightly different background for the main section */
+    background-color: #fff;  /* White or a very light gray */
+    border-radius: 8px; /* Optional: Rounded corners for the main section */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: A slightly stronger shadow */
+}
+
+.product-details {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-bottom: 40px;
+    /* Example: A very light gray for this section */
+    /* background-color: #f9f9f9; */  /* Uncomment if needed */
+    /* padding: 20px; */ /* Add padding if you use a background color */
+    /* border-radius: 8px; */ /* Add rounded corners if you use a background color */
+}
+
+/* ... (rest of the CSS remains the same) */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    /* Example: A slightly darker background for the footer */
+    /* background-color: #222; */ /* Uncomment if needed */
+}
